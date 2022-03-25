@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab 6 Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="lab06.css">
+</head>
+<body>
+    <div id="mapid" style = "height: 500px;width: 800px">
+    
+    </div>
+    <script>
+        var map = L.map('mapid').setView([30.6158, -96.3408], 12);
+    </script>
+    <script src=TAMU_Building.js></script>
+    <!--<script type="text/javascript" src="TAMU_Building.js"></script>-->
+    <script src="lab06.js"></script>
+</body>
+</html>
